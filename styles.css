@@ -5,6 +5,11 @@
     color: white;
     background-color: blue;
 }
+
+.index-text{
+    font-size: 32px;
+}
+
 .innerpagetitle{
     font-size: 36px;
 }
@@ -12,8 +17,24 @@
     font-size: 32px;
 }
 
-.u-lists{
-    font-size: 20px;
+.recipes{
+    margin: 0 auto;
+}
+
+.recipe-cards{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(233, 235, 248);
+    max-width: 1000px;
+    border: 1px dashed skyblue;
+}
+.recipe-cards:hover{
+    background-color: rgb(132, 181, 255);
+    color: white;
+    padding: 28px;
 }
 
 .makecenter, p, em, strong{
@@ -26,9 +47,29 @@
     background-color: rgb(236, 235, 235);
 }
 .img{
-    background-color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    border: 2px white solid;
+    padding: 10px
 }
 .innerlist{
     font-size: 18px;
     background-color: rgb(236, 235, 235);
+}
+.btn{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 24px;
+    border: none;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    border: blue solid 2px;
+    color: black;
 }
